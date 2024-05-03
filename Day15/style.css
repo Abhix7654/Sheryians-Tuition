@@ -1,0 +1,91 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    
+    body {
+        background: #faf6ef;
+        font-family: Helvetica;
+    }
+    
+    nav {
+        width: 100%;
+        padding: 20px 5px;
+        position: fixed;
+        top: 0;
+        border-bottom: 1px solid black;
+        z-index: 10000;
+        background-color: #faf6ef;
+    }
+    
+    nav > img {
+        height: 50%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    nav > span {
+        position: absolute;
+        right: 0;
+    }
+    nav i {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .headerlogo {
+        padding: 0 40px;
+        width: 100%;
+        margin-top: 6%;
+        margin-bottom: 1%;
+      
+    }
+
+    
+ 
+    
+ .big-links {
+        margin: 1% auto;
+        width: 95%;
+        font-size: 120px;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .big-links > a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .big-links > a:hover {
+        text-decoration: underline;
+        color: rgb(43, 98, 226);
+    }
+    
+    .bigdot {
+        font-size: 150px;
+        line-height: 120px;
+    }
+    marquee {
+        background-color: #ff39a4;
+        font-size: 40px;
+        font-weight: 500;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    
+    marquee:hover {
+        color: white;
+        cursor: pointer;
+        
+    }
+    video{
+        width: 100%;
+     
+      margin-top: -4px;
+    }

@@ -1,0 +1,23 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+}
+html,body{
+        width: 100%;
+        height: 100%;
+}
+body{
+        /* background: linear-gradient(to right,antiquewhite,rgb(248, 165, 56)); */
+       background: radial-gradient(rgb(222, 146, 47),rgb(232, 199, 157));
+}
+
+h1{
+        color: #211f91;
+       
+     
+}
+span{
+        color: brown;
+}

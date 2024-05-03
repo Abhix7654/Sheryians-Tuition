@@ -1,0 +1,35 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+html,body{
+        width: 100%;
+        height: 100%;
+}       
+div{
+        /* it is static */
+        /* width: 20px;
+        height: 30px; */
+
+        /* it is dynamic depend on parent */
+        /* width: 20%;
+        height: 30%; */
+
+        /* it is dynamic doesnt depend on parents */
+        /* width: 20vw;
+        height: 30vh; */
+
+        /* it takes maximum size of display wheater it is width or height  */
+        width: 40vmax;
+        height: 40vmax;
+
+
+        background-color: #ef7979;
+}
+h1{
+        color: rgb(48, 110, 90);
+        font-size: 70px;
+        font-family:gilroy;
+        font-weight: bold;
+}
