@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+ box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+#box1{
+        width: 200px;
+        height: 200px;
+        background-color: #943333;
+        overflow: auto;
+        /* display: inline; */
+        display: inline-block;
+        /* display: none; */
+        /* visibility: hidden; */
+
+
+}
+#box2{
+        width: 200px;
+        height: 200px;
+        background-color: #653394;
+        /* display: inline; */
+        display: inline-block;
+
+}
