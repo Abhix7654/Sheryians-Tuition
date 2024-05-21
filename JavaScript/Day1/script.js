@@ -1,11 +1,11 @@
 // variables and datatype
 // scope
 
-// process of crating datatype
+// process of creating datatype
 
 // 1.var/let/const -keyword
 // 2.variable/container name
-// 3. =
+// 3. = operational operator
 // 4.value/info
 
 // eg:-
@@ -22,3 +22,13 @@
 // snake_case_pattern
 // camelCasePattern
 // PascalCasePattern
+
+
+// Datatype
+
+// Number - 123 , 12.34,-12,-13.44
+// string - '1234',"djlsd","@$$#"
+// Boolean - true ,false ,0 ,1
+// object - null(when programmer intentionally empty the value)
+// undefined - undefined(when compiler want to show the empty value)
+// object - array[]/object{}
