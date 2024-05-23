@@ -32,3 +32,8 @@
 // object - null(when programmer intentionally empty the value)
 // undefined - undefined(when compiler want to show the empty value)
 // object - array[]/object{}
+
+var a=5
+var b=3
+var ans=a**b
+console.log(ans)
