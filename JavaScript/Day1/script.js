@@ -33,7 +33,10 @@
 // undefined - undefined(when compiler want to show the empty value)
 // object - array[]/object{}
 
-var a=5
-var b=3
-var ans=a**b
-console.log(ans)
+// var a=5
+// var b=3
+// var ans=a**b
+// console.log(ans)
+
+console.log("abhi">"mus");
+
