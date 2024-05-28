@@ -38,5 +38,11 @@
 // var ans=a**b
 // console.log(ans)
 
-console.log("abhi">"mus");
+console.log(12==="12");
+console.log(12 && 13);
+
+console.log(0 && 13);
+
+console.log("hello" && null && "hi")
+console.log("hello" || null || "hy")
 
