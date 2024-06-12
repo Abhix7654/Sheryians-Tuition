@@ -48,16 +48,16 @@
 // var c = prompt("Enter your age");
 // c = Number(c);
 
-// if (c >= 18) {
-//     if (b === "male") {
-//         alert(`Congratulations Mr ${a}, you can vote.`);
-//     } else {
-//         alert(`Congratulations Mrs ${a}, you can vote.`);
-//     }
-// } else {
-//     if (b === "male") {
-//         alert(`Oh sorry Mr ${a}, you cannot vote for ${18 - c} more years.`);
-//     } else {
-//         alert(`Oh sorry Mrs ${a}, you cannot vote for ${18 - c} more years.`);
-//     }
-// }
+if (c >= 18) {
+    if (b === "male") {
+        alert(`Congratulations Mr ${a}, you can vote.`);
+    } else {
+        alert(`Congratulations Mrs ${a}, you can vote.`);
+    }
+} else {
+    if (b === "male") {
+        alert(`Oh sorry Mr ${a}, you cannot vote for ${18 - c} more years.`);
+    } else {
+        alert(`Oh sorry Mrs ${a}, you cannot vote for ${18 - c} more years.`);
+    }
+}
