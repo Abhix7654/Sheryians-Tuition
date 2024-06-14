@@ -28,3 +28,19 @@ return sum;
 
 }
 console.log(sum(2,3));
+
+
+// variable length parameter/arguments
+// rest operator-- stores the value in the form of array 
+// it should be the last parameter int function
+// there must not be more than one rest operator
+
+function hobbies(name,age,...h){
+        console.log(name,age);
+        return h;
+
+}
+
+let result=hobbies("joohn",34,99,"ndosmd");
+
+console.log(result);
