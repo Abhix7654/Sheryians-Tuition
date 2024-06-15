@@ -44,3 +44,4 @@ function hobbies(name,age,...h){
 let result=hobbies("joohn",34,99,"ndosmd");
 
 console.log(result);
+
