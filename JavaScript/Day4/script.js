@@ -45,24 +45,24 @@
 
 // console.log(result);
 
-let n=prompt("Enter no");
-n=Number(n);
+// let n=prompt("Enter no");
+// n=Number(n);
 
-function fibonacciSeries(n) {
+// function fibonacciSeries(n) {
        
-        let fib = [0, 1];
+//         let fib = [0, 1];
     
        
-        for (let i = 2; i < n; i++) {
-            fib[i] = fib[i - 1] + fib[i - 2];
-        }
+//         for (let i = 2; i < n; i++) {
+//             fib[i] = fib[i - 1] + fib[i - 2];
+//         }
     
-        return fib;
-    }
+//         return fib;
+//     }
 
    
 
-    console.log(fibonacciSeries(n));
+//     console.log(fibonacciSeries(n));
 
 
 // function primeno(n) {
