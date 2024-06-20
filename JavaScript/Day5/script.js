@@ -14,8 +14,19 @@
 // console.log(c);//undefined
 // var c=4;
 
-sum(3,7);
+// sum(3,7);
 
-function sum(a,b){
-        console.log(a+b);
-}
+// function sum(a,b){
+//         console.log(a+b);
+// }
+
+// let output=5+""+7
+// console.log(output)
+
+// primitive = non reference ya immutible
+// number , string, boolean ,null, undefined
+
+
+// non primitive = reference mutuble
+// Arrays , list
+
