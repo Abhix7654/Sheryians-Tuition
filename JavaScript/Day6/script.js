@@ -12,3 +12,15 @@ console.log(arr);
 
 let x=arr.slice(2,4);
 console.log(x)
+
+arr.forEach((ele,idx)=>{
+        console.log(idx ,ele);
+
+});
+
+let v=arr.map((ele)=>{
+        return ele*10;
+
+});
+
+console.log(v);
