@@ -22,5 +22,20 @@ let v=arr.map((ele)=>{
         return ele*10;
 
 });
-
 console.log(v);
+
+let c=arr.filter((ele)=>{
+        return ele%2!=0;
+})
+console.log(c);
+
+let details=[
+        {name:"john",
+        age:23,
+        gender:"female"},{
+        name:"john",
+        age:23,
+        gender:"female"}
+         ]
+console.log(details[0])
+console.log(details[0].age)
