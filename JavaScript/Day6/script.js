@@ -79,5 +79,16 @@ arr2.push(34);
 console.log(arr2);
 
 
+// Destructuring
+  let ar=["john",23,"bhopal"];
+
+//   let name=ar[0];
+//   let age=ar[1];
+//   let city=ar[2];
+
+  let[name,,city]=ar;
+  console.log(name,city);
+
+
 
 
