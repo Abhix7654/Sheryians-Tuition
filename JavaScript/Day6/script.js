@@ -39,3 +39,11 @@ let details=[
          ]
 console.log(details[0])
 console.log(details[0].age)
+
+
+details[0].gender="male";
+details[0]["gender"]="female";
+console.log(details)
+
+delete details[1].age;
+console.log(details)
