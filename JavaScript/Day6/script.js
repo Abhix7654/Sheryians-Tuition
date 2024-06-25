@@ -47,3 +47,17 @@ console.log(details)
 
 delete details[1].age;
 console.log(details)
+
+let vrr=[23,24,2455,13,67];
+for(let i of vrr){
+        console.log(i);
+}
+
+let profile={
+        name:"Abbisek",
+        age:21,
+
+}
+for(let i in profile){
+        console.log(i,profile[i]);
+}
