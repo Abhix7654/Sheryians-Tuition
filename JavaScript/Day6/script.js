@@ -49,15 +49,35 @@ delete details[1].age;
 console.log(details)
 
 let vrr=[23,24,2455,13,67];
+
+// for of loop
 for(let i of vrr){
         console.log(i);
 }
+
+
 
 let profile={
         name:"Abbisek",
         age:21,
 
 }
+// for in lopp
 for(let i in profile){
         console.log(i,profile[i]);
 }
+
+
+
+// spread operator
+// array
+let arr1=[2,4,7,3,7];
+// let arr2=Object.assign([],arr1);
+let arr2=[...arr1];
+console.log(arr1);
+arr2.push(34);
+console.log(arr2);
+
+
+
+
