@@ -1,22 +1,22 @@
 // sync and async behabiour of JS
 
-setTimeout(()=>{
-        console.log("hello");
-},1000);
+// setTimeout(()=>{
+//         console.log("hello");
+// },1000);
 
-console.log("world");
+// console.log("world");
 
-let a=1;
-let x=setInterval(()=>{
+// let a=1;
+// let x=setInterval(()=>{
 
-        if(a==5){
-                clearInterval(x);
-        }
-        console.log(a);
-        a++;
-},100);
+//         if(a==5){
+//                 clearInterval(x);
+//         }
+//         console.log(a);
+//         a++;
+// },100);
 
-console.log(x);
+// console.log(x);
 
 
 // api is given by backend and to implement api in frontend we use the concept of AJAX which is theoretical and to
@@ -42,24 +42,40 @@ let userapi=`https://jsonplaceholder.typicode.com/users`;
 
 // create promises
 
-function myPromises(data) {
-     return new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-                if(data>100){
-                        resolve("data is greater than 100");
-                }else{
-                        reject("data is less than 100");
-                }
-        },1000)
-     });
+// function myPromises(data) {
+//      return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//                 if(data>100){
+//                         resolve("data is greater than 100");
+//                 }else{
+//                         reject("data is less than 100");
+//                 }
+//         },1000)
+//      });
+// }
+
+// myPromises(50)
+// .then((result)=>{
+//         console.log(result);
+// })
+// .catch((error)=>{
+//         console.log(error);
+// })
+
+// console.log(myPromises);
+
+// async and wait --> use to convert async code to sync code
+
+async function getusers(){
+        try{
+                let userapi=`https://jsonplaceholder.typicode.com/users`;
+                const Response = await fetch(userapi);
+                const data=await Response.json();
+                console.log(data);
+
+        }catch{
+                console.log("error")
+        }
 }
 
-myPromises(50)
-.then((result)=>{
-        console.log(result);
-})
-.catch((error)=>{
-        console.log(error);
-})
-
-console.log(myPromises);
+getusers();
