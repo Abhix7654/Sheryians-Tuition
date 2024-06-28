@@ -23,7 +23,43 @@ console.log(x);
 // implement it we use "fetch api"/axios in frontend
 let userapi=`https://jsonplaceholder.typicode.com/users`;
 
-fetch(userapi)
-.then((e)=>e.json())
-.then((r)=>console.log(r))
-.catch((err)=>console.log(error));
+// fetch(userapi)
+// .then((e)=>e.json())
+// .then((r)=>console.log(r))
+// .catch((err)=>console.log(error));
+
+// promises
+
+// sum((2,3){
+//         console.log(2+3);
+
+// }).then((result=>{
+//         console.log(result);
+// })
+// .catch((error)=>{
+//         console.log("error");
+// }))
+
+// create promises
+
+function myPromises(data) {
+     return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+                if(data>100){
+                        resolve("data is greater than 100");
+                }else{
+                        reject("data is less than 100");
+                }
+        },1000)
+     });
+}
+
+myPromises(50)
+.then((result)=>{
+        console.log(result);
+})
+.catch((error)=>{
+        console.log(error);
+})
+
+console.log(myPromises);
