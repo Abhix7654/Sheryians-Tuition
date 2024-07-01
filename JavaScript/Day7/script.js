@@ -21,7 +21,7 @@
 
 // api is given by backend and to implement api in frontend we use the concept of AJAX which is theoretical and to
 // implement it we use "fetch api"/axios in frontend
-let userapi=`https://jsonplaceholder.typicode.com/users`;
+// let userapi=`https://jsonplaceholder.typicode.com/users`;
 
 // fetch(userapi)
 // .then((e)=>e.json())
@@ -79,3 +79,10 @@ async function getusers(){
 }
 
 getusers();
+
+// Make sure this script is loaded as a module
+let userapii = `https://jsonplaceholder.typicode.com/users`;
+const Responsee = await fetch(userapii);
+const dataa = await Responsee.json();
+console.log(dataa);
+
