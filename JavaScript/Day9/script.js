@@ -12,3 +12,20 @@ console.log(a.innerHTML);
 
 a.innerHTML="Abhishek"
 console.log(a.innerHTML);
+
+a.style.color="red";
+
+const body=document.querySelector("body");
+
+// body.style.backgroundColor= "red";
+
+function randomcolor(){
+        return Math.floor(Math.random()*256);
+}
+
+body.style.backgroundColor=`rgb(${randomcolor()},${randomcolor()},${randomcolor()},${randomcolor()})`
+
+
+setInterval(()=>{
+body.style.backgroundColor=`rgb(${randomcolor()},${randomcolor()},${randomcolor()},${randomcolor()})`
+},250);
