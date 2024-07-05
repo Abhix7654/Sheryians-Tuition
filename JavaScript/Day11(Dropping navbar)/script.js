@@ -1,5 +1,5 @@
-const menu=document.querySelector("menu");
-const close=document.querySelector("close");
+const menu=document.querySelector(".menu");
+const close=document.querySelector(".close");
 const nav=document.querySelector("nav");
 const ul=document.querySelector("ul");
 
@@ -11,4 +11,4 @@ menu.addEventListener("click",()=>{
         menu.style.display="none";
         close.style.display="initial"
 
-})
+});

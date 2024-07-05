@@ -1,0 +1,85 @@
+*{
+margin: 0;
+padding: 0;
+ box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+#main{
+        width: 100vw;
+        height: 100vh;
+        background-color: bisque;
+        padding: 80px;
+        filter:blur(8px);
+}
+#row1{
+        display: flex;
+        justify-content: space-between;
+}
+#row2{
+        display: flex;
+        justify-content: space-between;
+}
+.img{
+        width: 16vw;
+        height: 26vh;
+        background-color: aqua;
+        margin-top: 10vh;
+        border-radius: 6px;
+        
+}
+#img1{
+        background-image: url(./am.png);
+        background-size: cover;
+        background-position: center;
+}
+#img2{
+        background-image: url(./75.png);
+        background-size: cover;
+        background-position: center;
+}
+#img3{
+        background-image: url(./js.png);
+        background-size: cover;
+        background-position: center;
+}
+#img4{
+        background-image: url(./pd.png);
+        background-size: cover;
+        background-position: center;
+}
+#img5{
+        background-image: url(./top.png);
+        background-size: cover;
+        background-position: center;
+}
+#img6{
+        background-image: url(./sql.png);
+        background-size: cover;
+        background-position: center;
+}
+#img7{
+        background-image: url(./am.png);
+        background-size: cover;
+        background-position: center;
+}
+#img8{
+        background-image: url(./75.png);
+        background-size: cover;
+        background-position: center;
+}
+#view{
+        position: absolute;
+        z-index: 1;
+        width: 35vw;
+        height: 50vh;
+       background-image: url(./am.png);
+       background-position: center;
+       background-size: cover;
+       margin-top: 24vh;
+       margin-left: 33vw;
+       display: none;
+       
+}
