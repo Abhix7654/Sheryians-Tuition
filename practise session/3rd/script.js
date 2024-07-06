@@ -21,3 +21,4 @@ document.querySelector("#main").addEventListener("click", (event) => {
         i = 0;
     }
 });
+ 
