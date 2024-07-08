@@ -15,4 +15,8 @@ function getRandomColor() {
         document.body.style.backgroundColor = randomColor;
       
     });
-    
+
+    var s=Math.random();
+    console.log(s);
+    console.log(Math.floor(s));
+    console.log(Math.floor(s*256));
