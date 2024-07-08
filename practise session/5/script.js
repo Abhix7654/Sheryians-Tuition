@@ -36,7 +36,7 @@ const storiesjson = [
     
     function loadstories() {
         storiesjson.forEach((s, i) => {
-            stories.innerHTML += <img src="${s.dp}" alt="${i}" />;
+            stories.innerHTML += `<img src="${s.dp}" alt="${i}" />`;
         });
     }
     loadstories();
