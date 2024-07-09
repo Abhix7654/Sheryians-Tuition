@@ -39,7 +39,7 @@
     
     .heart {
         opacity: 0;
-        scale: 0;
+        scale:0;
         font-size: 10vh;
         color: red;
         transition: 0.25s;
