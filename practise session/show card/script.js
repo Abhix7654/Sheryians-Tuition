@@ -33,7 +33,7 @@ const users = [
         }
       ];
       
-      document.addEventListener('DOMContentLoaded', () => {
+      
         const employeElements = document.querySelectorAll('.employe');
         const profileDiv = document.querySelector('.card');
         const profilePic = document.getElementById('profile'); 
@@ -55,5 +55,5 @@ const users = [
             
           });
         });
-      });
+     
       
