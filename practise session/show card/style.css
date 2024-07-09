@@ -78,12 +78,19 @@ height: 100%;
         margin-bottom: 14px;
         
 }
-.employe h2{
+.employe {
         font-family: gilroy;
+        font-weight: 700;
         font-size: 20px;
         display: flex;
         justify-content: center;
-       margin-top: 11px;
+       margin-top: 10px;
        letter-spacing: 3px;
        color: white;
+       padding: 5px;
+}
+.employe:hover{
+        background-color: rgba(129, 14, 67, 0.466);
+       
+        cursor: pointer;
 }
