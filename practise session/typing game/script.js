@@ -1,5 +1,5 @@
 const words = [
-        "hello", "sheryians", "Abhishek", "banana", "Donald trump", "Binod", "tamatar", "qwerty"
+        "hello", "sheryians", "abhishek", "banana", "donald trump", "binod", "tamatar", "qwerty","baigan"
     ];
     
     let history = [];
