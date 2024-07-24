@@ -1,0 +1,77 @@
+*{
+margin: 0;
+padding: 0;
+ box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+#main{
+        width: 100%;
+        height: 100%;
+        background-color: antiquewhite;
+}
+
+#boy{
+       height: 600px;
+       position: absolute;
+       left: 0;
+       top: 20%;
+       z-index: 99;
+
+}
+#girl{
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        
+ 
+ }
+ #km{
+        height: 200px;
+        position: absolute;
+        left: 90%;
+        top: 40%;
+        
+       
+ }
+ #one{
+        position: absolute;
+        left: 0;
+        top: 30%;
+        z-index: 99;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        opacity: 0;
+ }
+ #two{
+        font-size: 20px;
+        position: absolute;
+        left: 60%;
+        top: 30%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        opacity: 0;
+ }
+ #cn{
+       
+      
+        height: 400px;
+        position: absolute;
+      left: 40%;
+      top:25%;
+      opacity: 0;
+ }
+ #qt{
+       
+                position: absolute;
+              left: 35%;
+              top:70%;
+              font-weight: 800;
+              letter-spacing: 2px;
+              line-height: 50px;
+              opacity: 0;
+ }
