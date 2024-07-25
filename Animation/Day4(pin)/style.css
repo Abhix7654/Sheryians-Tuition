@@ -7,3 +7,46 @@ html,body{
 width: 100%;
 height: 100%;
 }
+body{
+        overflow-x: hidden;
+    }
+#page1{
+        width: 100%;
+        height: 100%;
+        background-color: #befef8;
+        border: 2px solid black;
+}
+#page2{
+        width: 100%;
+        height: 100%;
+        background-color: #befef8;
+        border: 2px solid black;
+}
+#page3{
+        width: 100%;
+        height: 100%;
+        background-color: #befef8;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+#page4{
+        width: 100%;
+        height: 100%;
+        background-color: #befef8;
+}
+img{
+       
+        height: 800px;
+        width: 1px;
+        object-fit: cover;
+      
+}
+h1{
+        font-size:430px;
+        text-transform: uppercase;
+        font-family: monument;
+        font-weight: 100;
+        color: #e10202;
+}
