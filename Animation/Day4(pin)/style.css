@@ -21,6 +21,8 @@ body{
         height: 100%;
         background-color: #befef8;
         border: 2px solid black;
+        display: flex;
+        align-items: center;
 }
 #page3{
         width: 100%;
@@ -39,7 +41,7 @@ body{
 img{
        
         height: 800px;
-        width: 1px;
+        width: 0px;
         object-fit: cover;
       
 }
@@ -48,5 +50,5 @@ h1{
         text-transform: uppercase;
         font-family: monument;
         font-weight: 100;
-        color: #e10202;
+        color: #000000;
 }
